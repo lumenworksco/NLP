@@ -84,4 +84,5 @@ def get_training_args(output_dir: str, num_epochs: int = config.NUM_EPOCHS) -> T
         report_to="none",
         seed=config.SEED,
         dataloader_num_workers=config.DATALOADER_WORKERS,
+        dataloader_pin_memory=False,
     )

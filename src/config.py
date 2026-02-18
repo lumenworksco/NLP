@@ -22,7 +22,7 @@ WARMUP_RATIO = 0.1
 LR_SCHEDULER = "linear"
 MAX_GRAD_NORM = 1.0
 LOGGING_STEPS = 100
-DATALOADER_WORKERS = 2
+DATALOADER_WORKERS = 0
 
 # ── Model identifiers ─────────────────────────────────────────────────────
 MODELS = {
